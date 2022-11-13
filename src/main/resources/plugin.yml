@@ -1,0 +1,21 @@
+name: ThirteenNight
+version: '${project.version}'
+main: thirteenNight.ThirteenNight
+api-version: 1.19
+authors: [ RedKiller ]
+depend: [DoublePlugin-1.19.2]
+description: ThirteenNight Helping Plugin
+
+commands:
+  weapon:
+    description: test Command
+    aliases: [무기]
+    permission: thirteenNightSystem
+    permission-message: 넌 오피가 아닌데요.
+  game:
+    description: game Command
+    aliases: [ 게임 ]
+
+permissions:
+  thirteenNightSystem:
+    default: op
